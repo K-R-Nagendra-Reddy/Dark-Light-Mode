@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark-bg-container {
+  background-color: #000000;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-in-dark {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.btton-in-dark {
+  background-color: #ffffff;
+  border: solid #000000 2px;
+  color: #000000;
+}
+.light-bg-container {
+  background-color: #ffffff;
+  height: 30vh;
+  width: 40vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-in-light {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.btton-in-light {
+  background-color: #000000;
+  border: solid #ffffff 2px;
+  color: #ffffff;
+}
